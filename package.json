@@ -1,0 +1,43 @@
+{
+  "name": "height_calculator",
+  "description": "Calculates the height of a person",
+  "version": "0.0.1",
+  "homepage": "https://github.com/codeaye/height_calculator#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeaye/height_calculator/issues",
+    "email": "navaneeth.sajiv@gmail.com"
+  },
+  "author": {
+    "name": "Codeaye",
+    "url": "https://github.com/codeaye",
+    "email": "navaneeth.sajiv@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeaye/height_calculator.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.2",
+    "daisyui": "^2.19.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.3",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.5",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.9"
+  }
+}
